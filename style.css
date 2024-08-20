@@ -294,24 +294,21 @@ li {
 }
 
 .first_title_badge{
-  text-align: center;
+ margin-left: 65px;
 }
 
 .title_badge{
     background-color: #535254;
     color: white;
     padding: 4px 8px;
-    text-align: center;
     border-radius: 5px;
     font-weight: bold;
-    text-align: justify;
 }
 
 .brevet{
     color: white;
     font-size: 20px;
 }
-
 
 
 @keyframes spin {
