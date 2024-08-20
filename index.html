@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elouan Provost</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="main-container">
+
+        <!-- Section de Gauche -->
+        <div class="section-left">
+            <div class="container">
+
+                <div class="titre">Elouan Provost</div>
+                <div class="logo"><img class="image" src="img/logo.png" alt="tiger"></div>
+                <div class="name">Etudiant en BTS CRSA</div>
+
+                <div class="section">MES INFORMATIONS</div>
+                <div class="icons">
+                    <div class="icon-with-text">
+                        <i class="fas fa-cake-candles"></i>
+                        <span class="text-right">15/09/2006 (</span>
+                        <span id="age"></span>
+                        &nbspans)
+                        
+                    </div>
+                    <div class="icon-with-text">
+                        <i class="fas fa-location-dot"></i>
+                        <span class="text-right">Laval-Pays de la Loire</span>
+                    </div>
+
+                    <div class="icon-with-text">
+                        <i class="social fas fa-car""></i>
+                        <span class="text-right">Permis B</span>
+                    </div>
+                </div>
+
+                <!-- ME CONTACTER -->
+                <div class="section">ME CONTACTER</div>
+
+                <div class="icons">
+                    <div class="icon-with-text">
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:elouan.provost@outlook.fr" class="mail-tel">
+                            <span class="text-right">elouan.provost@outlook.fr</span>
+                        </a>
+                    </div>
+                    <div class="icon-with-text">
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:0782323220" class="mail-tel">
+                            <span class=" text-right">07-82-32-32-20</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- END ME CONTACTER -->
+
+                <!-- LANGUE -->
+                <div class="section">LANGUES</div>
+
+                <div class="drapeau">
+                    <img class="langue" src="img/France.png" alt="Français" data-toggle="tooltip"
+                        data-placement="bottom" title="Français">
+                    <img class="langue" src="img/anglais.png" alt="Anglais" data-toggle="tooltip"
+                        data-placement="bottom" title="Anglais">
+                    <img class="langue" src="img/espagne.png" alt="Espagnol" data-toggle="tooltip"
+                        data-placement="bottom" title="Espagnol">
+                </div>
+
+                <!-- END LANGUE -->
+
+                <!-- ATOUTS -->
+                <div class="section">ATOUTS</div>
+
+                <div class="atout">
+                    <div class="icones">
+                        <!-- la Ponctualité -->
+                        <i class="fa-solid fa-clock" data-toggle="tooltip" title="Ponctuel"></i>
+                        <!-- Minutieux -->
+                        <i class="fa-solid fa-pen" data-toggle="tooltip" title="Minutieux"></i>
+                        <!-- a l'écoute -->
+                        <i class="fa-solid fa-headphones" data-toggle="tooltip" title="à l'écoute"></i>
+                        <!-- Travaille en équipe -->
+                        <i class="fa-solid fa-people-group" data-toggle="tooltip" title="Travaille en équipe"></i>
+                    </div>
+                </div>
+
+                <!-- END ATOUTS -->
+
+
+                <!-- Diplômes / Titres -->
+                <div class="section">Diplômes / Titres</div>
+
+                <div class="first_title_badge">
+                    <span class="title_badge">2021</span>
+                    <span class="brevet">&nbspBrevet des collèges <br>(Mention Assez Bien)</span>
+                </div>
+                <div class="first_title_badge">
+                    <span class="title_badge">2024</span>
+                    <span class="brevet">&nbspBaccalauréat Professionnel <br>MELEC (Mention Bien)</span>
+                </div>
+
+                <!-- Diplômes / Titres -->
+
+            </div>
+        </div>
+
+
+        <!-- Section de Droite -->
+        <div class="section-right">
+            <div class="container">
+                <div class="titre-top"><i class="fa-solid fa-building"></i> - EXPÉRIENCES PROFESSIONNELLES</div>
+                <p class="date">27 novembre 2023 au 26 janvier 2024</p>
+
+                <!--SLIDE 1-->
+                <p class="lieu"><i class="fa-solid fa-arrow-right"></i> Stage de 7 semaines chez <a class="link"
+                        href="https://www.pcmi.fr/" target="_blank">P.C.M.I</a> (Laval) <i
+                        class="fa-regular fa-square-caret-up" id="togg1"></i>
+                </p>
+
+                <!--Texte SLIDES 1-->
+                <div id="d1">
+                    <img src="img/pcmi-logo.png" alt="logo">
+
+                    <div class="activite">
+                        <embed src="doc/Rapport_de_stage_Elouan_Provost_P.C.M.I.pdf" type="application/pdf" width="80%" height="950px">
+                        <img class="caeli-1" src="img/Caeli.jpg" alt="machine">
+                        <img class="caeli-2" src="img/CAELI-3d.JPG" alt="machine-3d">
+                    </div>
+
+                </div>
+
+
+                <!--END SLIDE 1-->
+
+                <!--SLIDE 2-->
+                <p class="date">5 juin au 30 Juin 2023</p>
+                <p class="lieu"><i class="fa-solid fa-arrow-right"></i> Stage de 4 semaines chez <a class="link"
+                        href="https://www.lely.com/fr/" target="_blank">LELY</a> (Evron) <i
+                        class="fa-regular fa-square-caret-up" id="togg2"></i></p>
+
+
+                <!--Texte SLIDES 2-->
+                <div id="d2">
+                    <img src="img/lely-logo.png" alt="logo">
+                </div>
+
+                <!--END SLIDE 2-->
+
+                <!--SLIDE 3-->
+
+                <p class="date">23 janvier au 24 février 2023</p>
+                <p class="lieu"><i class="fa-solid fa-arrow-right"></i> Stage de 5 semaines chez <a class="link"
+                        href="https://www.europlastiques.com/" target="_blank">Europlastiques</a>
+                    (Laval) <i class="fa-regular fa-square-caret-up" id="togg3"></i></p>
+
+                <!--Texte SLIDES 3-->
+                <div id="d3">
+                    <img src="img/europlastique-logo.png" alt="logo" width="20%">
+                    <embed src="doc/Rapport de stage Europlastiques Provost Elouan.pdf" type="application/pdf" width="80%" height="950px">
+                </div>
+
+                <!--END SLIDE 3-->
+
+                <!--SLIDE 4-->
+                <p class="date">Avril 2022</p>
+                <p class="lieu"><i class="fa-solid fa-arrow-right"></i> Stage de 5 semaines chez <a class="link"
+                        href="https://www.pagesjaunes.fr/pros/59623521" target="_blank">AA+ Électricité</a>
+                    (Laval) <i class="fa-regular fa-square-caret-up" id="togg4"></i></p>
+
+                <!--Texte SLIDES 4-->
+                <div id="d4">
+                    <img src="img/AA+Logo.jpg" alt="logo">
+                </div>
+
+                <!--END SLIDE 4-->
+
+                <!--SLIDE 5-->
+                <p class="date">Février 2021</p>
+                <p class="lieu"><i class="fa-solid fa-arrow-right"></i> Stage d'observation de 3 jours chez <a
+                        class="link" href="https://www.nrelec.fr/" target="_blank">NR ELEC</a>
+                    (Laval) <i class="fa-regular fa-square-caret-up" id="togg5"></i></p>
+
+                <!--Texte SLIDES 5-->
+                <div id="d5">
+                    <img src="img/Nr elec-logo.png" alt="logo">
+                </div>
+
+                <!--END SLIDE 5-->
+
+
+                <div class="titre-top-2"><i class="fa-solid fa-briefcase"></i> - COMPÉTENCES PROFESSIONNELLES</div>
+
+                <div class="competence-pro">
+                    <div class="titre-competence">Industrie</div>
+
+                    <ul class="list-industrie">
+                        <li>Décodage de schémas électriques industriels</li>
+                        <li> Implantation d'appareillages</li>
+                        <li>Passage de câbles et fixation</li>
+                        <li>Câblage des appareillages</li>
+                        <li>Mise en service d'un équipement</li>
+                    </ul>
+                </div>
+
+                <div class="competence-pro">
+                    <div class="titre-competence">Automatisme</div>
+
+
+                    <ul class="list-industrie-2">
+                        <li>Programmation d'automates</li>
+                        <li>(Ladder, Grafcet, logigrammes)</li>
+                        <li>Utilisation et raccordement de capteurs</li>
+                        <li>(cellules infrarouge, capteurs inductifs, de position…)</li>
+                        <li>Passage de câbles et fixation</li>
+                        <li>Câblage des appareillages</li>
+                        <li>Mise en service d'un équipement</li>
+                    </ul>
+
+                </div>
+
+                <div class="competence-pro">
+                    <div class="titre-competence">Habitat</div>
+
+
+                    <ul class="list-industrie-3">
+                        <li>Passage de gaines et conducteurs</li>
+                        <li>Pose d'appareillages et raccordement de montages habitat</li>
+                        <li>(simple allumage, va et vient, télérupteur...)</li>
+                        <li>Mise en service (mesurages)</li>
+                    </ul>
+
+                </div>
+
+                <div class="competence-pro">
+                    <div class="titre-competence">Habilitation</div>
+
+                    <ul class="list-industrie-4">
+                        <li>Habilitable niveau B1V</li>
+                        <li>Habilitable niveau BR</li>
+                    </ul>
+
+                </div>
+
+                <div class="competence-pro">
+                    <div class="titre-competence">Langue</div>
+
+                    <ul class="list-industrie-5">
+                        <li>Anglais Niveau B1</li>
+                    </ul>
+
+                </div>
+
+                <div class="competence-pro">
+                    <div class="titre-competence">Informatique</div>
+
+                    <ul class="list-industrie-6">
+                        <li>Libre Office</li>
+                        <li>Word</li>
+                        <li>Canva</li>
+                    </ul>
+
+                </div>
+
+
+                <div class="titre-top-2"><i class="fa-solid fa-bookmark"></i> - CENTRES D'INTÉRÊTS</div>
+
+                <ul class="centre-interet">
+                    <li>Badminton à Bonchamp-lès-Laval depuis 5 ans</li>
+                    <li>Encadrant de jeunes enfants dans un club badminton depuis 2 ans</li>
+                    <li>Développement Web (codage informatique) HTML, CSS, JavaScript</li>
+                </ul>
+
+                
+               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        document.getElementById("age").innerHTML = Math.floor((Date.now() - new Date("2006-9-15")) / (1000 * 60 * 60 * 24 * 365.25));
+    </script>
+
+</body>
+
+</html>
