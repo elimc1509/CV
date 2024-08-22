@@ -5,6 +5,7 @@ body {
     height: 100%;
     overflow-y: auto;
     min-height: 100%;
+    display: flex;
 }
 
 .main-container {
@@ -19,12 +20,12 @@ body {
     width: 420px;
     background-color: #323b4c;
     padding-left: 10px;
+    min-width: 300px; /* Taille minimale pour empêcher la réduction */
 }
 
 .section-right {
     margin-left: 220px;
     background-color: #ffffff;
-    flex-grow: 1;
 }
 
 .container {
@@ -198,6 +199,13 @@ i {
 
 }
 
+
+.activite {
+    width: 70%;
+    padding-left:25px;
+    text-align: justify;
+}
+
 .fa-square-caret-up {
     font-size: 18px;
     vertical-align: middle;
@@ -350,11 +358,14 @@ li {
 
     .section-right {
         width: 125%;
+        max-width: calc(100% - 420px); /* ou une valeur absolue si nécessaire */
         margin-left: 0;
+        overflow: auto;
     }
 
     .section-left{
         width: 125%;
+        flex-shrink: 0;
     }
 
     .icons {
