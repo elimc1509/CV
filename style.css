@@ -5,7 +5,6 @@ body {
     height: 100%;
     overflow-y: auto;
     min-height: 100%;
-    display: flex;
 }
 
 .main-container {
@@ -14,18 +13,19 @@ body {
 }
 
 .section-left {
-    height: auto;
-    position: sticky;
+    height: 1920px;
+    position: absolute;
     top: 0;
     width: 420px;
     background-color: #323b4c;
     padding-left: 10px;
-    min-width: 300px; /* Taille minimale pour empêcher la réduction */
 }
 
 .section-right {
-    margin-left: 220px;
+    margin-left: 600px;
     background-color: #ffffff;
+    flex-grow: 1;
+    padding-left: 10px;
 }
 
 .container {
@@ -168,7 +168,7 @@ i {
 .date {
     color: #238ad3;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 26px;
     margin-top: 10px;
     margin-bottom: 0;
 }
@@ -177,6 +177,7 @@ i {
     color: #535254;
     font-weight: 600;
     margin-top: 0;
+    font-size: 20px;
 }
 
 .link {
@@ -190,6 +191,10 @@ i {
     color: #ffbd43;
 }
 
+.logo-pcmi{
+    width: 50px;
+}
+
 #d1,
 #d2,
 #d3,
@@ -199,11 +204,11 @@ i {
 
 }
 
-
-.activite {
-    width: 70%;
-    padding-left:25px;
+.text-stage{
+    width: 60%;
     text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
 }
 
 .fa-square-caret-up {
@@ -323,6 +328,18 @@ li {
     font-size: 20px;
 }
 
+.petit_logo_pcmi{
+    align-items: center;
+    margin-top: -13px;
+    margin-left: -3px;
+}
+
+
+
+
+
+
+
 
 @keyframes spin {
     0%{
@@ -332,6 +349,12 @@ li {
         transform: rotate(360deg);
     }
 }
+
+
+
+
+
+
 
 
 
@@ -358,14 +381,12 @@ li {
 
     .section-right {
         width: 125%;
-        max-width: calc(100% - 420px); /* ou une valeur absolue si nécessaire */
         margin-left: 0;
-        overflow: auto;
     }
 
     .section-left{
         width: 125%;
-        flex-shrink: 0;
+        position: sticky;
     }
 
     .icons {
