@@ -377,4 +377,8 @@ li {
         margin: 0 auto; /* Centre le container horizontalement */
         padding: 0 10px; /* Ajoute un peu de padding pour un meilleur espacement interne */
     }
+
+    .section-right{
+        
+    }
 }
